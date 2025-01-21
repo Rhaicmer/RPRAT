@@ -5,6 +5,7 @@
   "description": "Apenas um teste",
   "type": "module",
   "main": "main.js",
+  
   "scripts": {
     "dev": "vite",
     "electron": "electron .",
@@ -43,6 +44,11 @@
     "asar": false,
     "appId": "com.exemplo.atemoh",
     "productName": "Atmoh",
+    "publish": {
+      "provider": "github",
+      "owner": "seu-usuario",
+      "repo": "seu-repositorio"
+    },
     "win": {
       "target": "nsis"
     },
