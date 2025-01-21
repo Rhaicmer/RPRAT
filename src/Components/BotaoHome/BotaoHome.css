@@ -1,0 +1,13 @@
+.container {
+  width: 360px;   /* Largura de 200 pixels */
+  height: 95px;  /* Altura de 150 pixels */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;  /* Alinha os itens horizontalmente no centro */
+  align-items: center;      /* Alinha os itens verticalmente no centro */
+  margin: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255,255,255);
+  cursor: pointer
+
+}

@@ -1,0 +1,33 @@
+
+.bVertical{
+    display: flex; /* Define o layout como flex */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    height: 100vh; /* Define a altura da div para a altura total da tela */
+    justify-content: space-between; /* Distribui os itens igualmente ao longo do eixo vertical */
+    overflow: hidden;
+    
+}
+
+.bVertical > * {
+  
+    display: flex; /* Garante que o conteúdo dos itens seja flexível */
+    align-items: center; /* Centraliza o conteúdo verticalmente dentro de cada componente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente dentro de cada componente */
+    
+}
+
+  .containerPrincipal {
+    display: flex; /* Ativa o layout flexbox */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    
+}
+
+video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
